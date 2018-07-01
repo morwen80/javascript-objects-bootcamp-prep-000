@@ -3,6 +3,6 @@ var playlist = {
 };
 
 function updatePlaylist(Object, artistName, songTitle) {
-  Object.artistName = songTitle;
+  Object[artistName] = songTitle;
   return playlist;
 }
