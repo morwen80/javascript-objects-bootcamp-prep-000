@@ -2,7 +2,7 @@ var playlist = {
   Babymetal: "Gimme Chocolate!!"
 };
 
-function updatePlaylist(obj, artist, song) {
+function updatePlaylist(Object, artistName, songTitle) {
   obj.artist = song;
   return playlist;
 }
